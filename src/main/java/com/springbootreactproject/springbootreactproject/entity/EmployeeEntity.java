@@ -11,7 +11,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 public class EmployeeEntity {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
@@ -22,9 +21,6 @@ public class EmployeeEntity {
     @Column(name = "last_name")
     private String lastName;
     @Column(name = "email")
-    private String emial;
-
-
-
+    private String email;
 
 }
